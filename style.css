@@ -1,0 +1,184 @@
+body {
+    font-family: Courier;
+    background-color: #8b5843;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+header {
+    background-color:#e1d1b8;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+nav {
+    font-size: 25px;    
+    text-align: center; 
+    background-color: #e1d1b8;
+    color: #967f76;
+    padding: 20px 0;
+    border-top: 2px solid grey;
+}
+
+nav a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.5s ease;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.main-info img {
+    width: 300px;
+    height: 300px;
+}
+
+.main-info-text {
+    width: 400px;
+}
+
+li{
+    font-size: 30px;  
+}
+
+li a {
+    text-decoration: none; 
+}
+
+li:before {
+    content: "";
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-image: url("img/pen_icon.png");
+    background-size: contain;
+    margin-right: 10px;
+}
+
+ul{
+    color:#2e2520;
+    list-style: none;
+
+    align-items: center;
+
+}
+
+.list {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.list h2 {
+    font-size: 50px;
+}
+
+nav a:hover{
+    color: #2e2520;  
+}
+
+a:visited{
+    color: #967f76;
+}
+
+a{
+    color: #5b484a;   
+}
+
+h1{
+    color:#2a2425 ;   
+}
+
+h3{
+    text-align: center; 
+    color: #e3e1e6;  
+}
+
+.fefe, .lolo, .home, .puppy{
+    width: 350px;
+    height: 450px;
+    background-color: #e3e1e6;
+    text-align: center;
+    padding: 40px 10px;
+
+}
+
+.nana, .mumu, .lol, .moon{
+    width: 350px;
+    height: 450px;
+    background-color: #e1d1b8;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 40px 10px;
+}
+
+.pon{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: space-around;
+    margin: 50px auto;
+
+}
+
+.Boo{
+    background-image:linear-gradient(to right, #eaddc8, #bbb8bf);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+div img {
+    width: 300px;
+    height: 300px;
+}
+
+main h3{
+    color:#e3d0c8;
+}
+
+h1 a:hover{
+    color: #e3d0c8;  
+}
+
+.Boo:hover{
+    color: #383430;   
+    border: 3px solid white;
+}
+
+li:hover{
+    color: #d4cabf;  
+}
+
+footer {
+    background-color: #e1d1b8;
+
+}
+
+footer h1 {
+    font-size: 20px;
+}
+
